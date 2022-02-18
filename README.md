@@ -1,4 +1,5 @@
-# project3
-Testing pull from web
+# project3 Networks 3700
 
-# Following the skelton made the design portion of this assignment really easy. The order of what methods are being called and what needs to be done. However a brief overview of the entire program is that there is a main run function that will contastly listen to the port and see if any information was given. Then its decided what type of data was set and then is add to the routing table or forwarded if needed then the program figures out if a routes needs to be given. One of the most diffuclt things for this porject was getting my head around what exactly we needed to grab save and send back out and to where. It was extremly diffult to visulaize what each of the different data types was saying and to format in a way that the simulation could understand. Also it trook a bit for us to figure out what was wrong with are ASN. And the testing was done with the given test plus a lot of checking my hand that the output we where getting was the one that it the one the simulation was expected.
+# The BGP router was run inside a simulator. The BGP Router accepted route announcements from simulated peer routers, generating new route announcements for peer routers,
+managing and compressing a forwarding table, and forwarded data packets that arrive from simulated internet users. It also Aggregates the forwarding table for optimal route selection.
+Created for Networks and Distrubeted Systems neu 3700
